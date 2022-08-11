@@ -1,0 +1,338 @@
+[Wed Aug 03 17:53:48.299385 2022] [mpm_winnt:notice] [pid 30912:tid 540] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 03 17:53:48.299385 2022] [mpm_winnt:notice] [pid 30912:tid 540] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 03 17:53:48.299385 2022] [core:notice] [pid 30912:tid 540] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 03 17:53:48.320166 2022] [mpm_winnt:notice] [pid 30912:tid 540] AH00418: Parent: Created child process 15684
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 15684:tid 552] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 03 17:53:54.786041 2022] [mpm_winnt:notice] [pid 30912:tid 540] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 03 17:53:56.799902 2022] [mpm_winnt:notice] [pid 15684:tid 552] AH00364: Child: All worker threads have exited.
+[Wed Aug 03 17:53:56.816159 2022] [mpm_winnt:notice] [pid 30912:tid 540] AH00430: Parent: Child process 15684 exited successfully.
+[Wed Aug 03 18:05:04.951388 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 03 18:05:04.951388 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 03 18:05:04.951388 2022] [core:notice] [pid 26648:tid 504] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 03 18:05:04.966329 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00418: Parent: Created child process 12508
+[Wed Aug 03 18:05:05.550146 2022] [mpm_winnt:notice] [pid 12508:tid 524] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 03 18:05:29.018876 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Aug 03 18:05:29.074880 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 03 18:05:29.074880 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 03 18:05:29.074880 2022] [core:notice] [pid 26648:tid 504] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 03 18:05:29.083327 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00418: Parent: Created child process 30684
+[Wed Aug 03 18:05:30.024009 2022] [mpm_winnt:notice] [pid 30684:tid 516] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 03 18:05:31.025587 2022] [mpm_winnt:notice] [pid 12508:tid 524] AH00364: Child: All worker threads have exited.
+[Wed Aug 03 18:05:33.379504 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 03 18:05:35.385851 2022] [mpm_winnt:notice] [pid 30684:tid 516] AH00364: Child: All worker threads have exited.
+[Wed Aug 03 18:05:35.425094 2022] [mpm_winnt:notice] [pid 26648:tid 504] AH00430: Parent: Child process 30684 exited successfully.
+[Wed Aug 03 18:05:43.574347 2022] [mpm_winnt:notice] [pid 4400:tid 496] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 03 18:05:43.574347 2022] [mpm_winnt:notice] [pid 4400:tid 496] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 03 18:05:43.574347 2022] [core:notice] [pid 4400:tid 496] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 03 18:05:43.583487 2022] [mpm_winnt:notice] [pid 4400:tid 496] AH00418: Parent: Created child process 31692
+[Wed Aug 03 18:05:43.915625 2022] [mpm_winnt:notice] [pid 31692:tid 548] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 13:45:27.479962 2022] [mpm_winnt:notice] [pid 4400:tid 496] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 13:45:29.484964 2022] [mpm_winnt:notice] [pid 31692:tid 548] AH00364: Child: All worker threads have exited.
+[Thu Aug 04 13:45:29.505596 2022] [mpm_winnt:notice] [pid 4400:tid 496] AH00430: Parent: Child process 31692 exited successfully.
+[Thu Aug 04 13:57:15.556825 2022] [mpm_winnt:notice] [pid 27228:tid 492] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 13:57:15.556825 2022] [mpm_winnt:notice] [pid 27228:tid 492] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 13:57:15.556825 2022] [core:notice] [pid 27228:tid 492] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 13:57:15.572962 2022] [mpm_winnt:notice] [pid 27228:tid 492] AH00418: Parent: Created child process 14876
+[Thu Aug 04 13:57:16.226450 2022] [mpm_winnt:notice] [pid 14876:tid 520] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 13:57:57.683115 2022] [cgi:error] [pid 14876:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:62074] couldn't create child process: 720002: printenv.pl
+[Thu Aug 04 13:57:57.683115 2022] [cgi:error] [pid 14876:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:62074] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/printenv.pl
+[Thu Aug 04 13:58:31.527215 2022] [mpm_winnt:notice] [pid 27228:tid 492] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 13:59:01.530690 2022] [mpm_winnt:notice] [pid 27228:tid 492] AH00431: Parent: Forcing termination of child process 14876
+[Thu Aug 04 13:59:27.083879 2022] [mpm_winnt:notice] [pid 11328:tid 488] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 13:59:27.083879 2022] [mpm_winnt:notice] [pid 11328:tid 488] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 13:59:27.083879 2022] [core:notice] [pid 11328:tid 488] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 13:59:27.090751 2022] [mpm_winnt:notice] [pid 11328:tid 488] AH00418: Parent: Created child process 15084
+[Thu Aug 04 13:59:27.448395 2022] [mpm_winnt:notice] [pid 15084:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 13:59:37.169492 2022] [cgi:error] [pid 15084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:62108] couldn't create child process: 720002: printenv.pl
+[Thu Aug 04 13:59:37.169492 2022] [cgi:error] [pid 15084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:62108] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/printenv.pl
+[Thu Aug 04 13:59:41.601958 2022] [cgi:error] [pid 15084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:62111] couldn't create child process: 720002: printenv.pl
+[Thu Aug 04 13:59:41.601958 2022] [cgi:error] [pid 15084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:62111] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/printenv.pl
+[Thu Aug 04 14:00:10.653042 2022] [cgi:error] [pid 15084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:62116] couldn't create child process: 720002: printenv.pl
+[Thu Aug 04 14:00:10.653042 2022] [cgi:error] [pid 15084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:62116] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/printenv.pl
+[Thu Aug 04 14:00:40.646549 2022] [mpm_winnt:notice] [pid 11328:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 14:01:10.657435 2022] [mpm_winnt:notice] [pid 11328:tid 488] AH00431: Parent: Forcing termination of child process 15084
+[Thu Aug 04 14:02:11.340339 2022] [mpm_winnt:notice] [pid 8984:tid 512] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 14:02:11.340339 2022] [mpm_winnt:notice] [pid 8984:tid 512] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 14:02:11.340339 2022] [core:notice] [pid 8984:tid 512] AH00094: Command line: 'httpd -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 14:02:11.357780 2022] [mpm_winnt:notice] [pid 8984:tid 512] AH00418: Parent: Created child process 28360
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 28360:tid 500] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 14:02:47.664301 2022] [mpm_winnt:notice] [pid 8984:tid 512] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Thu Aug 04 14:02:49.700903 2022] [mpm_winnt:notice] [pid 28360:tid 500] AH00364: Child: All worker threads have exited.
+[Thu Aug 04 14:02:49.722657 2022] [mpm_winnt:notice] [pid 8984:tid 512] AH00430: Parent: Child process 28360 exited successfully.
+[Thu Aug 04 14:04:58.314820 2022] [mpm_winnt:notice] [pid 24172:tid 488] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 14:04:58.314820 2022] [mpm_winnt:notice] [pid 24172:tid 488] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 14:04:58.314820 2022] [core:notice] [pid 24172:tid 488] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 14:04:58.329030 2022] [mpm_winnt:notice] [pid 24172:tid 488] AH00418: Parent: Created child process 32084
+[Thu Aug 04 14:04:58.684606 2022] [mpm_winnt:notice] [pid 32084:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 14:05:22.344658 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:64073] couldn't create child process: 720002: printenv.pl
+[Thu Aug 04 14:05:22.344658 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:64073] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/printenv.pl
+[Thu Aug 04 14:05:26.282722 2022] [cgi:error] [pid 32084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:64076] couldn't create child process: 720002: printenv.pl
+[Thu Aug 04 14:05:26.282722 2022] [cgi:error] [pid 32084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:64076] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/printenv.pl
+[Thu Aug 04 14:21:25.002016 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56101] couldn't create child process: 720002: test.py
+[Thu Aug 04 14:21:25.002016 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56101] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/test.py
+[Thu Aug 04 14:21:35.285654 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56104] couldn't create child process: 720002: test.py
+[Thu Aug 04 14:21:35.285654 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56104] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/test.py
+[Thu Aug 04 14:21:53.734604 2022] [cgi:error] [pid 32084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:56105] couldn't create child process: 720002: test.py
+[Thu Aug 04 14:21:53.734604 2022] [cgi:error] [pid 32084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:56105] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/test.py
+[Thu Aug 04 14:22:34.227550 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56117] couldn't create child process: 720002: test.py
+[Thu Aug 04 14:22:34.227550 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56117] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/test.py
+[Thu Aug 04 14:23:39.992834 2022] [cgi:error] [pid 32084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:56151] couldn't create child process: 720002: test.py
+[Thu Aug 04 14:23:39.992834 2022] [cgi:error] [pid 32084:tid 1692] (OS 2)系统找不到指定的文件。  : [client ::1:56151] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/test.py
+[Thu Aug 04 14:23:45.098462 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56152] couldn't create child process: 720002: test.py
+[Thu Aug 04 14:23:45.098960 2022] [cgi:error] [pid 32084:tid 1700] (OS 2)系统找不到指定的文件。  : [client ::1:56152] AH01223: couldn't spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/test.py
+[Thu Aug 04 14:43:44.359336 2022] [mpm_winnt:notice] [pid 24172:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 14:43:46.394241 2022] [mpm_winnt:notice] [pid 32084:tid 504] AH00364: Child: All worker threads have exited.
+[Thu Aug 04 14:43:46.421434 2022] [mpm_winnt:notice] [pid 24172:tid 488] AH00430: Parent: Child process 32084 exited successfully.
+[Thu Aug 04 14:48:46.366751 2022] [mpm_winnt:notice] [pid 7716:tid 504] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 14:48:46.366751 2022] [mpm_winnt:notice] [pid 7716:tid 504] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 14:48:46.366751 2022] [core:notice] [pid 7716:tid 504] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 14:48:46.374463 2022] [mpm_winnt:notice] [pid 7716:tid 504] AH00418: Parent: Created child process 10432
+[Thu Aug 04 14:48:46.788436 2022] [mpm_winnt:notice] [pid 10432:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 14:49:02.359366 2022] [cgi:error] [pid 10432:tid 1708] [client ::1:65181] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bintest.py
+[Thu Aug 04 14:49:28.695599 2022] [cgi:error] [pid 10432:tid 1704] [client ::1:65182] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bintest.py
+[Thu Aug 04 14:49:49.051338 2022] [cgi:error] [pid 10432:tid 1708] [client ::1:65187] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-binprintenv.pl
+[Thu Aug 04 14:51:58.997394 2022] [mpm_winnt:notice] [pid 7716:tid 504] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 14:52:01.017163 2022] [mpm_winnt:notice] [pid 10432:tid 504] AH00364: Child: All worker threads have exited.
+[Thu Aug 04 14:52:01.037807 2022] [mpm_winnt:notice] [pid 7716:tid 504] AH00430: Parent: Child process 10432 exited successfully.
+[Thu Aug 04 14:56:41.469362 2022] [mpm_winnt:notice] [pid 16472:tid 496] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 14:56:41.470280 2022] [mpm_winnt:notice] [pid 16472:tid 496] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 14:56:41.470280 2022] [core:notice] [pid 16472:tid 496] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 14:56:41.478944 2022] [mpm_winnt:notice] [pid 16472:tid 496] AH00418: Parent: Created child process 27900
+[Thu Aug 04 14:56:41.844248 2022] [mpm_winnt:notice] [pid 27900:tid 536] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 14:57:48.975289 2022] [cgi:error] [pid 27900:tid 1704] [client ::1:53060] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bintest.py
+[Thu Aug 04 15:00:16.995453 2022] [cgi:error] [pid 27900:tid 1708] [client ::1:53128] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-binhello.py
+[Thu Aug 04 15:00:21.521373 2022] [cgi:error] [pid 27900:tid 1708] [client ::1:53128] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-binhello.py
+[Thu Aug 04 15:00:36.232252 2022] [mpm_winnt:notice] [pid 16472:tid 496] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 15:01:06.247754 2022] [mpm_winnt:notice] [pid 16472:tid 496] AH00431: Parent: Forcing termination of child process 27900
+[Thu Aug 04 15:39:14.501165 2022] [mpm_winnt:notice] [pid 17876:tid 496] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 15:39:14.502166 2022] [mpm_winnt:notice] [pid 17876:tid 496] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 15:39:14.502166 2022] [core:notice] [pid 17876:tid 496] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 15:39:14.518158 2022] [mpm_winnt:notice] [pid 17876:tid 496] AH00418: Parent: Created child process 17128
+[Thu Aug 04 15:39:15.128054 2022] [mpm_winnt:notice] [pid 17128:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 15:39:30.201758 2022] [cgi:error] [pid 17128:tid 1708] [client ::1:61632] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-binhello.py
+[Thu Aug 04 15:41:25.244411 2022] [cgi:error] [pid 17128:tid 1700] [client ::1:61668] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bintest.py
+[Thu Aug 04 16:04:27.198887 2022] [mpm_winnt:notice] [pid 17876:tid 496] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 16:04:57.205864 2022] [mpm_winnt:notice] [pid 17876:tid 496] AH00431: Parent: Forcing termination of child process 17128
+[Thu Aug 04 16:29:30.291350 2022] [mpm_winnt:notice] [pid 10700:tid 488] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 16:29:30.291350 2022] [mpm_winnt:notice] [pid 10700:tid 488] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 16:29:30.291350 2022] [core:notice] [pid 10700:tid 488] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 16:29:30.299049 2022] [mpm_winnt:notice] [pid 10700:tid 488] AH00418: Parent: Created child process 5736
+[Thu Aug 04 16:29:30.742001 2022] [mpm_winnt:notice] [pid 5736:tid 528] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 16:30:32.594232 2022] [cgi:error] [pid 5736:tid 1708] [client ::1:52242] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bintest.py
+[Thu Aug 04 16:30:48.130838 2022] [cgi:error] [pid 5736:tid 1700] [client ::1:52245] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-binprintenv.pl
+[Thu Aug 04 16:31:13.169398 2022] [cgi:error] [pid 5736:tid 1708] [client ::1:52252] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-binprintenv.pl
+[Thu Aug 04 16:44:45.568245 2022] [mpm_winnt:notice] [pid 10700:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 16:44:47.570584 2022] [mpm_winnt:notice] [pid 5736:tid 528] AH00364: Child: All worker threads have exited.
+[Thu Aug 04 16:44:47.598571 2022] [mpm_winnt:notice] [pid 10700:tid 488] AH00430: Parent: Child process 5736 exited successfully.
+[Thu Aug 04 16:46:31.438507 2022] [mpm_winnt:notice] [pid 31804:tid 492] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 16:46:31.438507 2022] [mpm_winnt:notice] [pid 31804:tid 492] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 16:46:31.438507 2022] [core:notice] [pid 31804:tid 492] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 16:46:31.447702 2022] [mpm_winnt:notice] [pid 31804:tid 492] AH00418: Parent: Created child process 13928
+[Thu Aug 04 16:46:31.789035 2022] [mpm_winnt:notice] [pid 13928:tid 524] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 16:46:39.286165 2022] [mpm_winnt:notice] [pid 31804:tid 492] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 16:47:09.300481 2022] [mpm_winnt:notice] [pid 31804:tid 492] AH00431: Parent: Forcing termination of child process 13928
+[Thu Aug 04 17:03:05.494632 2022] [mpm_winnt:notice] [pid 32576:tid 488] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 17:03:05.494632 2022] [mpm_winnt:notice] [pid 32576:tid 488] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 17:03:05.494632 2022] [core:notice] [pid 32576:tid 488] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 17:03:05.499612 2022] [mpm_winnt:notice] [pid 32576:tid 488] AH00418: Parent: Created child process 4988
+[Thu Aug 04 17:03:05.850778 2022] [mpm_winnt:notice] [pid 4988:tid 516] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 17:54:02.429000 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:56214] End of script output before headers: image_stitch_cgi.py
+[Thu Aug 04 17:54:02.429000 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:56214] AH01215:   File "D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py", line 2\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 17:54:02.429000 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:56214] AH01215:     python image_stitching.py --images images/test --output output.png --crop 1\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 17:54:02.429000 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:56214] AH01215:            ^\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 17:54:02.429000 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:56214] AH01215: SyntaxError: invalid syntax\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 18:00:45.696508 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:53503] End of script output before headers: image_stitch_cgi.py
+[Thu Aug 04 18:00:45.696508 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:53503] AH01215: 'python' \xb2\xbb\xca\xc7\xc4\xda\xb2\xbf\xbb\xf2\xcd\xe2\xb2\xbf\xc3\xfc\xc1\xee\xa3\xac\xd2\xb2\xb2\xbb\xca\xc7\xbf\xc9\xd4\xcb\xd0\xd0\xb5\xc4\xb3\xcc\xd0\xf2\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 18:00:45.696508 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:53503] AH01215: \xbb\xf2\xc5\xfa\xb4\xa6\xc0\xed\xce\xc4\xbc\xfe\xa1\xa3\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 18:00:56.068687 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:53506] End of script output before headers: image_stitch_cgi.py
+[Thu Aug 04 18:00:56.069684 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:53506] AH01215: 'python' \xb2\xbb\xca\xc7\xc4\xda\xb2\xbf\xbb\xf2\xcd\xe2\xb2\xbf\xc3\xfc\xc1\xee\xa3\xac\xd2\xb2\xb2\xbb\xca\xc7\xbf\xc9\xd4\xcb\xd0\xd0\xb5\xc4\xb3\xcc\xd0\xf2\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 18:00:56.069684 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:53506] AH01215: \xbb\xf2\xc5\xfa\xb4\xa6\xc0\xed\xce\xc4\xbc\xfe\xa1\xa3\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 18:01:35.023054 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:53537] AH02811: script not found or unable to stat: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/test2.py
+[Thu Aug 04 18:02:08.768727 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:53548] End of script output before headers: image_stitch_cgi.py
+[Thu Aug 04 18:02:08.769223 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:53548] AH01215: 'python' \xb2\xbb\xca\xc7\xc4\xda\xb2\xbf\xbb\xf2\xcd\xe2\xb2\xbf\xc3\xfc\xc1\xee\xa3\xac\xd2\xb2\xb2\xbb\xca\xc7\xbf\xc9\xd4\xcb\xd0\xd0\xb5\xc4\xb3\xcc\xd0\xf2\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 18:02:08.769223 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:53548] AH01215: \xbb\xf2\xc5\xfa\xb4\xa6\xc0\xed\xce\xc4\xbc\xfe\xa1\xa3\r: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/image_stitch_cgi.py
+[Thu Aug 04 18:22:43.183742 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:49862] Script timed out before returning headers: test2.py
+[Thu Aug 04 18:27:22.664940 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:63117] malformed header from script 'test2.py': Bad header: [INFO] loading images...
+[Thu Aug 04 18:30:28.035269 2022] [cgi:error] [pid 4988:tid 1700] [client ::1:63176] malformed header from script 'test2.py': Bad header: [INFO] loading images...
+[Thu Aug 04 18:31:16.112176 2022] [cgi:error] [pid 4988:tid 1696] [client ::1:63179] malformed header from script 'test2.py': Bad header: [INFO] loading images...
+[Thu Aug 04 18:39:28.291099 2022] [mpm_winnt:notice] [pid 32576:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 04 18:39:30.307047 2022] [mpm_winnt:notice] [pid 4988:tid 516] AH00364: Child: All worker threads have exited.
+[Thu Aug 04 18:39:30.349275 2022] [mpm_winnt:notice] [pid 32576:tid 488] AH00430: Parent: Child process 4988 exited successfully.
+[Thu Aug 04 18:39:56.194658 2022] [mpm_winnt:notice] [pid 25604:tid 500] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Thu Aug 04 18:39:56.194658 2022] [mpm_winnt:notice] [pid 25604:tid 500] AH00456: Server built: Jun 23 2022 16:43:03
+[Thu Aug 04 18:39:56.194658 2022] [core:notice] [pid 25604:tid 500] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Thu Aug 04 18:39:56.212683 2022] [mpm_winnt:notice] [pid 25604:tid 500] AH00418: Parent: Created child process 27584
+[Thu Aug 04 18:39:56.869427 2022] [mpm_winnt:notice] [pid 27584:tid 552] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 04 18:40:46.712949 2022] [cgi:error] [pid 27584:tid 1692] [client ::1:52380] malformed header from script 'test2.py': Bad header: [INFO] loading images...
+[Thu Aug 04 18:43:41.075056 2022] [cgi:error] [pid 27584:tid 1712] [client ::1:59458] malformed header from script 'test2.py': Bad header: starting......
+[Thu Aug 04 18:45:16.475327 2022] [cgi:error] [pid 27584:tid 1692] [client ::1:59486] malformed header from script 'test2.py': Bad header: [INFO] loading images...
+[Fri Aug 05 11:39:31.117838 2022] [mpm_winnt:notice] [pid 25604:tid 500] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 05 11:39:33.138602 2022] [mpm_winnt:notice] [pid 27584:tid 552] AH00364: Child: All worker threads have exited.
+[Fri Aug 05 11:39:33.177552 2022] [mpm_winnt:notice] [pid 25604:tid 500] AH00430: Parent: Child process 27584 exited successfully.
+[Fri Aug 05 11:39:57.963739 2022] [mpm_winnt:notice] [pid 17232:tid 492] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Fri Aug 05 11:39:57.964707 2022] [mpm_winnt:notice] [pid 17232:tid 492] AH00456: Server built: Jun 23 2022 16:43:03
+[Fri Aug 05 11:39:57.964707 2022] [core:notice] [pid 17232:tid 492] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Fri Aug 05 11:39:57.984318 2022] [mpm_winnt:notice] [pid 17232:tid 492] AH00418: Parent: Created child process 30592
+[Fri Aug 05 11:39:58.681512 2022] [mpm_winnt:notice] [pid 30592:tid 504] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 05 13:54:16.745664 2022] [cgi:error] [pid 30592:tid 1700] [client ::1:58686] malformed header from script 'test2.py': Bad header: start...
+[Fri Aug 05 13:54:34.481195 2022] [cgi:error] [pid 30592:tid 1696] [client ::1:58689] malformed header from script 'test2.py': Bad header: start...
+[Fri Aug 05 13:55:48.583486 2022] [cgi:error] [pid 30592:tid 1696] [client ::1:51557] malformed header from script 'test3.py': Bad header: start...
+[Fri Aug 05 13:55:55.141543 2022] [cgi:error] [pid 30592:tid 1700] [client ::1:51560] malformed header from script 'test3.py': Bad header: start...
+[Fri Aug 05 13:57:12.596290 2022] [cgi:error] [pid 30592:tid 1696] [client ::1:51579] malformed header from script 'test3.py': Bad header: start...
+[Fri Aug 05 13:57:16.802711 2022] [cgi:error] [pid 30592:tid 1700] [client ::1:51581] malformed header from script 'test3.py': Bad header: start...
+[Fri Aug 05 13:57:55.223582 2022] [cgi:error] [pid 30592:tid 1696] [client ::1:51591] malformed header from script 'test3.py': Bad header: start...
+[Fri Aug 05 14:20:06.133903 2022] [win32:error] [pid 30592:tid 1700] [client ::1:58669] AH02102: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/output.png is not executable; ensure interpreted scripts have "#!" or "'!" first line
+[Fri Aug 05 14:20:06.133903 2022] [cgi:error] [pid 30592:tid 1700] (9)Bad file descriptor: [client ::1:58669] AH01222: don't know how to spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/output.png
+[Fri Aug 05 14:20:11.456367 2022] [win32:error] [pid 30592:tid 1700] [client ::1:58672] AH02102: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/output.png is not executable; ensure interpreted scripts have "#!" or "'!" first line
+[Fri Aug 05 14:20:11.456367 2022] [cgi:error] [pid 30592:tid 1700] (9)Bad file descriptor: [client ::1:58672] AH01222: don't know how to spawn child process: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/output.png
+[Mon Aug 08 14:53:43.455986 2022] [mpm_winnt:notice] [pid 17232:tid 492] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Aug 08 14:53:45.474785 2022] [mpm_winnt:notice] [pid 30592:tid 504] AH00364: Child: All worker threads have exited.
+[Mon Aug 08 14:53:45.498541 2022] [mpm_winnt:notice] [pid 17232:tid 492] AH00430: Parent: Child process 30592 exited successfully.
+[Tue Aug 09 16:58:55.026129 2022] [mpm_winnt:notice] [pid 31660:tid 488] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Tue Aug 09 16:58:55.027054 2022] [mpm_winnt:notice] [pid 31660:tid 488] AH00456: Server built: Jun 23 2022 16:43:03
+[Tue Aug 09 16:58:55.027054 2022] [core:notice] [pid 31660:tid 488] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Tue Aug 09 16:58:55.052043 2022] [mpm_winnt:notice] [pid 31660:tid 488] AH00418: Parent: Created child process 1460
+[Tue Aug 09 16:58:55.687337 2022] [mpm_winnt:notice] [pid 1460:tid 512] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 09 17:23:47.054410 2022] [mpm_winnt:notice] [pid 31660:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 09 17:23:49.083008 2022] [mpm_winnt:notice] [pid 1460:tid 512] AH00364: Child: All worker threads have exited.
+[Tue Aug 09 17:23:49.107186 2022] [mpm_winnt:notice] [pid 31660:tid 488] AH00430: Parent: Child process 1460 exited successfully.
+[Tue Aug 09 17:24:29.701014 2022] [mpm_winnt:notice] [pid 31540:tid 516] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Tue Aug 09 17:24:29.701014 2022] [mpm_winnt:notice] [pid 31540:tid 516] AH00456: Server built: Jun 23 2022 16:43:03
+[Tue Aug 09 17:24:29.701014 2022] [core:notice] [pid 31540:tid 516] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Tue Aug 09 17:24:29.708971 2022] [mpm_winnt:notice] [pid 31540:tid 516] AH00418: Parent: Created child process 2016
+[Tue Aug 09 17:24:30.056520 2022] [mpm_winnt:notice] [pid 2016:tid 520] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 09 17:31:01.475673 2022] [mpm_winnt:notice] [pid 31540:tid 516] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 09 17:31:03.506207 2022] [mpm_winnt:notice] [pid 2016:tid 520] AH00364: Child: All worker threads have exited.
+[Tue Aug 09 17:31:03.534050 2022] [mpm_winnt:notice] [pid 31540:tid 516] AH00430: Parent: Child process 2016 exited successfully.
+[Tue Aug 09 17:31:06.650076 2022] [mpm_winnt:notice] [pid 33108:tid 496] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Tue Aug 09 17:31:06.650076 2022] [mpm_winnt:notice] [pid 33108:tid 496] AH00456: Server built: Jun 23 2022 16:43:03
+[Tue Aug 09 17:31:06.650076 2022] [core:notice] [pid 33108:tid 496] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Tue Aug 09 17:31:06.654584 2022] [mpm_winnt:notice] [pid 33108:tid 496] AH00418: Parent: Created child process 15684
+[Tue Aug 09 17:31:07.026630 2022] [mpm_winnt:notice] [pid 15684:tid 524] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 09 18:22:06.199988 2022] [mpm_winnt:notice] [pid 33108:tid 496] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 09 18:22:08.205219 2022] [mpm_winnt:notice] [pid 15684:tid 524] AH00364: Child: All worker threads have exited.
+[Tue Aug 09 18:22:08.224986 2022] [mpm_winnt:notice] [pid 33108:tid 496] AH00430: Parent: Child process 15684 exited successfully.
+[Tue Aug 09 18:22:41.341064 2022] [mpm_winnt:notice] [pid 20656:tid 528] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Tue Aug 09 18:22:41.341064 2022] [mpm_winnt:notice] [pid 20656:tid 528] AH00456: Server built: Jun 23 2022 16:43:03
+[Tue Aug 09 18:22:41.341064 2022] [core:notice] [pid 20656:tid 528] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Tue Aug 09 18:22:41.357711 2022] [mpm_winnt:notice] [pid 20656:tid 528] AH00418: Parent: Created child process 25020
+[Tue Aug 09 18:22:42.015412 2022] [mpm_winnt:notice] [pid 25020:tid 508] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 09:38:27.595723 2022] [mpm_winnt:notice] [pid 20656:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 09:38:29.611191 2022] [mpm_winnt:notice] [pid 25020:tid 508] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 09:38:29.632372 2022] [mpm_winnt:notice] [pid 20656:tid 528] AH00430: Parent: Child process 25020 exited successfully.
+[Wed Aug 10 09:38:49.117713 2022] [mpm_winnt:notice] [pid 18132:tid 540] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 09:38:49.117713 2022] [mpm_winnt:notice] [pid 18132:tid 540] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 09:38:49.117713 2022] [core:notice] [pid 18132:tid 540] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 09:38:49.119588 2022] [mpm_winnt:notice] [pid 18132:tid 540] AH00418: Parent: Created child process 19704
+[Wed Aug 10 09:38:49.467463 2022] [mpm_winnt:notice] [pid 19704:tid 548] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 09:44:46.902494 2022] [mpm_winnt:notice] [pid 18132:tid 540] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 09:44:48.921352 2022] [mpm_winnt:notice] [pid 19704:tid 548] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 09:44:48.943716 2022] [mpm_winnt:notice] [pid 18132:tid 540] AH00430: Parent: Child process 19704 exited successfully.
+[Wed Aug 10 10:16:44.015320 2022] [mpm_winnt:notice] [pid 13008:tid 516] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 10:16:44.015320 2022] [mpm_winnt:notice] [pid 13008:tid 516] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 10:16:44.015320 2022] [core:notice] [pid 13008:tid 516] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 10:16:44.015320 2022] [mpm_winnt:notice] [pid 13008:tid 516] AH00418: Parent: Created child process 26048
+[Wed Aug 10 10:16:44.432061 2022] [mpm_winnt:notice] [pid 26048:tid 520] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 10:18:09.936381 2022] [mpm_winnt:notice] [pid 13008:tid 516] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 10:18:39.941899 2022] [mpm_winnt:notice] [pid 13008:tid 516] AH00431: Parent: Forcing termination of child process 26048
+[Wed Aug 10 10:19:07.441385 2022] [mpm_winnt:notice] [pid 30668:tid 504] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 10:19:07.441385 2022] [mpm_winnt:notice] [pid 30668:tid 504] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 10:19:07.441385 2022] [core:notice] [pid 30668:tid 504] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 10:19:07.445482 2022] [mpm_winnt:notice] [pid 30668:tid 504] AH00418: Parent: Created child process 18252
+[Wed Aug 10 10:19:07.845835 2022] [mpm_winnt:notice] [pid 18252:tid 544] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 10:56:31.837169 2022] [cgi:error] [pid 18252:tid 1708] [client 192.168.1.101:58342] AH02812: attempt to invoke directory as script: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/images/test/
+[Wed Aug 10 10:57:48.401632 2022] [cgi:error] [pid 18252:tid 1708] [client 192.168.1.101:58346] AH02812: attempt to invoke directory as script: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/images/test/
+[Wed Aug 10 11:04:25.856321 2022] [cgi:error] [pid 18252:tid 1708] [client 192.168.1.101:58356] AH02812: attempt to invoke directory as script: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/cgi-bin/
+[Wed Aug 10 11:45:33.327780 2022] [mpm_winnt:notice] [pid 30668:tid 504] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 11:45:35.335145 2022] [mpm_winnt:notice] [pid 18252:tid 544] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 11:45:35.361415 2022] [mpm_winnt:notice] [pid 30668:tid 504] AH00430: Parent: Child process 18252 exited successfully.
+[Wed Aug 10 12:43:48.380876 2022] [mpm_winnt:notice] [pid 23296:tid 528] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 12:43:48.380876 2022] [mpm_winnt:notice] [pid 23296:tid 528] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 12:43:48.380876 2022] [core:notice] [pid 23296:tid 528] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 12:43:48.405680 2022] [mpm_winnt:notice] [pid 23296:tid 528] AH00418: Parent: Created child process 13364
+[Wed Aug 10 12:43:49.169156 2022] [mpm_winnt:notice] [pid 13364:tid 520] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 13:16:45.459560 2022] [mpm_winnt:notice] [pid 23296:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 13:16:47.463365 2022] [mpm_winnt:notice] [pid 13364:tid 520] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 13:16:47.483421 2022] [mpm_winnt:notice] [pid 23296:tid 528] AH00430: Parent: Child process 13364 exited successfully.
+[Wed Aug 10 13:33:20.941769 2022] [mpm_winnt:notice] [pid 29008:tid 496] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 13:33:20.941769 2022] [mpm_winnt:notice] [pid 29008:tid 496] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 13:33:20.941769 2022] [core:notice] [pid 29008:tid 496] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 13:33:20.941769 2022] [mpm_winnt:notice] [pid 29008:tid 496] AH00418: Parent: Created child process 33512
+[Wed Aug 10 13:33:21.366864 2022] [mpm_winnt:notice] [pid 33512:tid 516] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 13:38:50.059149 2022] [autoindex:error] [pid 33512:tid 1708] [client ::1:63751] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:39:06.675412 2022] [autoindex:error] [pid 33512:tid 1716] [client ::1:63758] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:40:08.417082 2022] [autoindex:error] [pid 33512:tid 1708] [client ::1:63785] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:50:35.351151 2022] [autoindex:error] [pid 33512:tid 1708] [client ::1:57664] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:53:57.078680 2022] [autoindex:error] [pid 33512:tid 1716] [client ::1:58593] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:54:00.988795 2022] [autoindex:error] [pid 33512:tid 1716] [client ::1:58593] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:54:04.702935 2022] [autoindex:error] [pid 33512:tid 1716] [client ::1:58593] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:55:02.997049 2022] [mpm_winnt:notice] [pid 29008:tid 496] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 13:55:33.003987 2022] [mpm_winnt:notice] [pid 29008:tid 496] AH00431: Parent: Forcing termination of child process 33512
+[Wed Aug 10 13:55:51.710768 2022] [mpm_winnt:notice] [pid 17980:tid 512] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 13:55:51.710768 2022] [mpm_winnt:notice] [pid 17980:tid 512] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 13:55:51.710768 2022] [core:notice] [pid 17980:tid 512] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 13:55:51.710768 2022] [mpm_winnt:notice] [pid 17980:tid 512] AH00418: Parent: Created child process 9708
+[Wed Aug 10 13:55:52.150659 2022] [mpm_winnt:notice] [pid 9708:tid 516] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 13:55:58.956853 2022] [autoindex:error] [pid 9708:tid 1712] [client ::1:58612] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 13:56:02.121838 2022] [autoindex:error] [pid 9708:tid 1712] [client ::1:58612] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:08:33.530366 2022] [autoindex:error] [pid 9708:tid 1708] [client ::1:54588] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:20:10.619539 2022] [autoindex:error] [pid 9708:tid 1712] [client ::1:51193] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:27:29.080545 2022] [mpm_winnt:notice] [pid 17980:tid 512] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 14:27:31.099704 2022] [mpm_winnt:notice] [pid 9708:tid 516] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 14:27:31.139035 2022] [mpm_winnt:notice] [pid 17980:tid 512] AH00430: Parent: Child process 9708 exited successfully.
+[Wed Aug 10 14:27:55.566991 2022] [mpm_winnt:notice] [pid 8532:tid 488] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 14:27:55.567988 2022] [mpm_winnt:notice] [pid 8532:tid 488] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 14:27:55.567988 2022] [core:notice] [pid 8532:tid 488] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 14:27:55.571282 2022] [mpm_winnt:notice] [pid 8532:tid 488] AH00418: Parent: Created child process 15684
+[Wed Aug 10 14:27:55.984292 2022] [mpm_winnt:notice] [pid 15684:tid 504] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 14:28:03.690260 2022] [autoindex:error] [pid 15684:tid 1712] [client ::1:56977] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:28:13.590702 2022] [autoindex:error] [pid 15684:tid 1708] [client ::1:56978] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:28:17.078757 2022] [autoindex:error] [pid 15684:tid 1708] [client ::1:56978] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:31:21.327051 2022] [autoindex:error] [pid 15684:tid 1712] [client ::1:57042] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:42:49.519534 2022] [mpm_winnt:notice] [pid 8532:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 14:42:51.540778 2022] [mpm_winnt:notice] [pid 15684:tid 504] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 14:42:51.580561 2022] [mpm_winnt:notice] [pid 8532:tid 488] AH00430: Parent: Child process 15684 exited successfully.
+[Wed Aug 10 14:43:33.367902 2022] [mpm_winnt:notice] [pid 34548:tid 488] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 14:43:33.367902 2022] [mpm_winnt:notice] [pid 34548:tid 488] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 14:43:33.367902 2022] [core:notice] [pid 34548:tid 488] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 14:43:33.389241 2022] [mpm_winnt:notice] [pid 34548:tid 488] AH00418: Parent: Created child process 24244
+[Wed Aug 10 14:43:34.083914 2022] [mpm_winnt:notice] [pid 24244:tid 520] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 14:43:39.654720 2022] [autoindex:error] [pid 24244:tid 1744] [client ::1:56149] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:43:57.940157 2022] [autoindex:error] [pid 24244:tid 1744] [client ::1:56162] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:44:55.875503 2022] [autoindex:error] [pid 24244:tid 1720] [client ::1:56181] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:46:28.860379 2022] [mpm_winnt:notice] [pid 34548:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 14:46:57.973690 2022] [mpm_winnt:notice] [pid 24244:tid 520] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 14:46:57.995161 2022] [mpm_winnt:notice] [pid 34548:tid 488] AH00430: Parent: Child process 24244 exited successfully.
+[Wed Aug 10 14:48:13.560704 2022] [mpm_winnt:notice] [pid 31664:tid 512] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 14:48:13.561717 2022] [mpm_winnt:notice] [pid 31664:tid 512] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 14:48:13.561717 2022] [core:notice] [pid 31664:tid 512] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 14:48:13.566424 2022] [mpm_winnt:notice] [pid 31664:tid 512] AH00418: Parent: Created child process 12672
+[Wed Aug 10 14:48:14.184187 2022] [mpm_winnt:notice] [pid 12672:tid 520] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 14:48:30.762848 2022] [autoindex:error] [pid 12672:tid 1712] [client ::1:49820] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:56:13.517333 2022] [autoindex:error] [pid 12672:tid 1736] [client ::1:54483] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:56:15.832426 2022] [autoindex:error] [pid 12672:tid 1736] [client ::1:54483] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 14:56:18.250927 2022] [autoindex:error] [pid 12672:tid 1736] [client ::1:54483] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 15:17:00.253405 2022] [autoindex:error] [pid 12672:tid 1712] [client ::1:61342] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 15:18:10.539136 2022] [autoindex:error] [pid 12672:tid 1736] [client ::1:61429] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 15:28:56.803761 2022] [mpm_winnt:notice] [pid 31664:tid 512] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 10 15:28:58.828446 2022] [mpm_winnt:notice] [pid 12672:tid 520] AH00364: Child: All worker threads have exited.
+[Wed Aug 10 15:28:58.849478 2022] [mpm_winnt:notice] [pid 31664:tid 512] AH00430: Parent: Child process 12672 exited successfully.
+[Wed Aug 10 15:29:46.326374 2022] [mpm_winnt:notice] [pid 14312:tid 496] AH00455: Apache/2.4.54 (Win32) OpenSSL/1.1.1p configured -- resuming normal operations
+[Wed Aug 10 15:29:46.326374 2022] [mpm_winnt:notice] [pid 14312:tid 496] AH00456: Server built: Jun 23 2022 16:43:03
+[Wed Aug 10 15:29:46.326374 2022] [core:notice] [pid 14312:tid 496] AH00094: Command line: 'D:\\tools\\windows\\apache\\httpd-2.4.54-o111p-x86-vs17\\Apache24\\bin\\httpd.exe -d D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24'
+[Wed Aug 10 15:29:46.342007 2022] [mpm_winnt:notice] [pid 14312:tid 496] AH00418: Parent: Created child process 29476
+[Wed Aug 10 15:29:46.768372 2022] [mpm_winnt:notice] [pid 29476:tid 544] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 10 15:29:55.976151 2022] [autoindex:error] [pid 29476:tid 1724] [client ::1:58167] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 15:30:23.771763 2022] [autoindex:error] [pid 29476:tid 1708] [client ::1:58170] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 15:50:40.800791 2022] [autoindex:error] [pid 29476:tid 1708] [client ::1:56538] AH01276: Cannot serve directory D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/uploads/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Aug 10 17:02:38.412060 2022] [cgi:error] [pid 29476:tid 1724] [client ::1:50817] AH02809: Options ExecCGI is off in this directory: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/htdocs/test.py
+[Wed Aug 10 17:02:41.759237 2022] [cgi:error] [pid 29476:tid 1724] [client ::1:50817] AH02809: Options ExecCGI is off in this directory: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/htdocs/test.py
+[Wed Aug 10 17:03:05.297295 2022] [cgi:error] [pid 29476:tid 1708] [client ::1:50820] AH02809: Options ExecCGI is off in this directory: D:/tools/windows/apache/httpd-2.4.54-o111p-x86-vs17/Apache24/htdocs/test.py
