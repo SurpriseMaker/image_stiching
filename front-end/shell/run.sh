@@ -3,32 +3,22 @@ img_root_path=$1
 server_ip_address=$2
 img_ftp_upload_path=ftp://${server_ip_address}/src/
 img_ftp_download_path=ftp://${server_ip_address}/out/output.png
+ftp_log_path=ftp://${server_ip_address}/log/
 cgi_stich_path=${server_ip_address}/cgi-bin/stich_image.py
 cgi_clean_path=${server_ip_address}/cgi-bin/clean.py
-net_rate=(100m 1m)
+net_rate_array=(100m 50m)
+log_file=log$(date +%Y%m%d)_$(date +%H%M%S).csv
 
 function clean(){
+    echo "clean"
     curl $cgi_clean_path
 }
 
-function getdir(){
-    for element in `ls $1`
-    do  
-        dir_or_file=$1"/"$element
-        if [ -d $dir_or_file ]
-        then 
-            getdir $dir_or_file
-        else
-            echo $dir_or_file
-	fi
-    done
-}
 
-function stich_core(){
+function stich_one_sample_remotely(){
 img_src_path=$1
 net_rate=$2
 
-echo "Step 1. Starting image stiching remotely."
 
 #clean previous images
 clean
@@ -66,35 +56,58 @@ time_download_img_duration_ms=$[(time_download_img_end-time_download_img_start)/
 echo "Image download duration = $time_download_img_duration_ms ms"
 echo "Image stiching remotely finished.\t\t."
 
+
+time_remote_faster_ms=$[(time_local_stich_duration_ms-time_upload_img_duration_ms-time_stich_img_remotely_duration-time_download_img_duration)]
+
+samplename=$(basename $img_src_path)
+
+echo   "$samplename,\
+	$net_rate,\
+	$time_upload_img_duration_ms,\
+	$time_stich_img_remotely_duration_ms,\
+	$time_download_img_duration_ms,\
+	$time_local_stich_duration_ms,\
+	$time_remote_faster_ms\
+	" >>$log_file
+
+curl -T $log_file $ftp_log_path
+}
+
+function stich_one_sample_locally(){
+	img_src_path=$1
 #run image stiching locally
-echo "Step 2. Starting image stiching locally.This may take a long time, please wait..."
+
 time_local_stich_start=$(date +%s%N)
 #python image_stitching.py --images $img_src_path --output output.png --crop 1
 time_local_stich_end=$(date +%s%N)
 time_local_stich_duration_ms=$[(time_local_stich_end-time_local_stich_start)/1000000]
 echo "Image stiched locally duration =$time_local_stich_duration_ms  ms"
 echo "Image stiching locally finished."
-
-time_remote_faster_ms=$[(time_local_stich_duration_ms-time_upload_img_duration_ms-time_stich_img_remotely_duration-time_download_img_duration)]
-
-echo "SUMMARIZE"
-echo "upload image duration =$time_upload_img_duration_ms ms"
-echo "Image stiched remotely duration = $time_stich_img_remotely_duration_ms ms"
-echo "Image download duration = $time_download_img_duration_ms ms"
-echo "Image stiched locally duration =$time_local_stich_duration_ms  ms"
-echo "Stiching remotely is $time_remote_faster_ms ms faster than locally."
 }
-
 function stich_one_sample(){
     img_path=$1
-	for element_rate in ${net_rate[@]}
-	do
-	    stich_core $img_path $element_rate
-	done
+    
+    echo "Step 1. Starting image stiching locally.This may take a long time, please wait..."
+    stich_one_sample_locally $img_path
+
+    echo "Step 2. Starting image stiching remotely."
+    for ((i=0;i<${#net_rate_array[@]};i++))
+    do
+	stich_one_sample_remotely $img_path ${net_rate_array[i]}
+    done
 
 }
 
 function stich_all_samples(){
+	echo   "Image Stiching Data Result" > $log_file
+	echo   "Sample name,\
+		Net Rate,\
+		Upload Image Duration,\
+		Imaage Stiched Remotely Duration,\
+		Image Download Duraiton,\
+		Image Stiched Locally Duration,\
+		Remote Faster(ms)\
+		">>$log_file
 	for folder in ${img_root_path}/*
 	do
 		if test -d $folder
