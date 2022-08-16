@@ -57,7 +57,7 @@ echo "Image download duration = $time_download_img_duration_ms ms"
 echo "Image stiching remotely finished.\t\t."
 
 
-time_remote_faster_ms=$[(time_local_stich_duration_ms-time_upload_img_duration_ms-time_stich_img_remotely_duration-time_download_img_duration)]
+time_remote_faster_ms=$[(time_local_stich_duration_ms-time_upload_img_duration_ms-time_stich_img_remotely_duration_ms-time_download_img_duration_ms)]
 
 samplename=$(basename $img_src_path)
 
